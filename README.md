@@ -31,15 +31,14 @@
 	* procedures for analyzing data from specific experiments (those specified by run_control)
 
 ## Workflow
-* to run an experiment (set of simulations)
-	* call run_control.Experiment.experiment_name()
-		1. set up a dictionary of parameters to be passed to the NEURON simulator (e.g. conductances) as well as experimental parameters (e.g. pattern of synaptic activation)
-		2. instantiate a cell object in NEURON
-		3. insert synapses and set up synaptic stimulation
-		4. set up extracellular stimulation objects
-		5. set up neuron recording objects
-		6. run simulation
-		7. save recorded data (by default saved to a subfolder of the cwd named 'Data/')
+* to run an experiment (set of simulations), call run_control.Experiment.experiment_name()
+	1. set up a dictionary of parameters to be passed to the NEURON simulator (e.g. conductances) as well as experimental parameters (e.g. pattern of synaptic activation)
+	2. instantiate a cell object in NEURON
+	3. insert synapses and set up synaptic stimulation
+	4. set up extracellular stimulation objects
+	5. set up neuron recording objects
+	6. run simulation
+	7. save recorded data (by default saved to a subfolder of the cwd named 'Data/')
 
 * analysis for individual experiments
 	1. generate group level variables (e.g. spikes, changes in synaptic weights, synaptic currents)
