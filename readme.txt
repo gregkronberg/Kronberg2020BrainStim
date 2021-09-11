@@ -2,7 +2,7 @@ README
 
 -Package Description
 
-	-DCS-LTP package for running simulations of detailed biophysical neurons with the NEURON simulation environment as a python module.  The package is intended for simulating synaptic inputs onto pyramidal neurons during application of extracellular electric fields
+	-NIBSplasticity package for running simulations of detailed biophysical neurons with the NEURON simulation environment as a python module.  The package is intended for simulating synaptic inputs onto pyramidal neurons during application of extracellular electric fields
 
 	-requires NEURON version 7 with python2
 
